@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		background-color: #fff;
+		font-family: 'Roboto Condensed';
+	
+	}
+
+	.nav_tabs{
+		width:882px;
+		height: auto;
+		margin: 20px auto;
+		background-color: #fff;
+		position: relative;
+	}
+
+	.nav_tabs ul{
+		list-style: none;
+	}
+
+	.nav_tabs ul li{
+		float: left;
+		width: 126px;
+	}
+
+	.tab_label{
+		display: inline;
+		width: 126px;
+		height: 50px;
+		margin-bottom: 100px;
+		background-color: #363b48;
+		padding: 25px;
+		font-size: 20px;
+		color:#fff;
+		cursor: pointer;
+		text-align: center;
+	}
+
+
+	.nav_tabs .rd_tab { 
+	display:none;
+	position: absolute;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+	background-color: #e54e43;
+	color:#fff;}
+
+.tab-content{
+	border-top: solid 5px #fff;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: auto;
+	width:882px;
+	left: 0;	
+	
+}
+
+.rd_tab:checked ~ .tab-content{
+	display: block;
+}
+.tab-content h2{
+	padding: 0px;
+	color: red;
+	font-size: 22px;
+	text-align: center;
+}
+.tab-content article{
+	padding: 10px;
+	color: #555;
+}
+td{
+	height: 20px;
+	padding: 0px;
+}
+tr{
+	height: 20px;
+	padding: 0px;
+}

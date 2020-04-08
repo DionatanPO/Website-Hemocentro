@@ -1,0 +1,17 @@
+*{	            /* » Esse é CSS Reset */
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+
+}
+#container_c{
+	height:70%;
+	border: 1px solid red;
+	margin: 1% auto auto auto;
+	width: 50%;
+}
+#baixo{
+	height: 30%;
+}

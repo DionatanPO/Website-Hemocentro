@@ -1,0 +1,26 @@
+.box_img{
+
+	padding: 0px;
+}
+
+
+.h{
+	margin-right:auto; 
+	margin-left:auto;
+	margin-bottom:1% ;
+	margin-top:1% ;
+	
+}
+.hn{
+	display: inline;
+}
+#galeria{
+	margin: auto;
+	padding-bottom: 2%;
+background:rgba(180, 27, 27,0.8);
+  text-align:center;  
+  box-shadow: 5px 20px 50px black;
+}
+.espe{
+	color: #fff;
+}

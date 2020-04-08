@@ -1,0 +1,46 @@
+#not1{
+	float:right;
+	position: relative;
+	width: 50%;
+	
+	text-align: center;
+	height: 100%;
+
+}
+#algo {
+	margin-top: 15%;
+	width: 40%;
+}
+.g{
+
+	width: 94%;
+}
+#test{
+	
+	float: left;
+	width: 100%;
+}
+#not2{
+	float:left;
+	position: relative;
+	width: 50%;
+	
+	height: 100%;
+}
+footer{
+	clear: both;
+}
+
+
+#c{
+	width: 90%;
+	height: 60%;
+	margin: auto;
+}
+iframe{
+	width: 100%;
+}
+#doe{
+	width: 30%;
+}
+
